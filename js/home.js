@@ -137,8 +137,7 @@ const renderRecibo = () => {
         </div>
         
         <div>
-          <p></p>
-          <p>R$ ${usuarioLogado.recibo[index].nome} ${usuarioLogado.extrato[index].valor.toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}</p>
+          <p>R$ ${usuarioLogado.recibo[index].nome} ${usuarioLogado.recibo[index].valor.toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}</p>
         </div>
       `;
       section_03.appendChild(lista_02);
@@ -147,6 +146,9 @@ const renderRecibo = () => {
 };
 
 const renderUser = () => {
+  const section_03 = document.querySelector(".section-03");
+  section_03.innerHTML = ""; // Limpa o conteúdo anterior
+
   if (usuarioLogado === null) {
     mensegerErr();
   } else {
@@ -165,6 +167,7 @@ const renderUser = () => {
 };
 
 renderUser();
+
 
 const exite = () => {
   openLoader()
