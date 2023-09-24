@@ -20,7 +20,6 @@ Este projeto é um sitema de banco desenvolvido em [HTML CSS JS] que permite aos
 
 ![Captura de Tela 1](screenshots/imagem1.png)
 ![Captura de Tela 1](screenshots/imagem2.png)
-![Captura de Tela 1](screenshots/imagem3.png)
 ![Captura de Tela 1](screenshots/imagem4.png)
 ![Captura de Tela 1](screenshots/imagem5.png)
 ![Captura de Tela 1](screenshots/imagem6.png)
