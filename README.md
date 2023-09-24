@@ -1,5 +1,5 @@
 
-## [Projeto Bancario](https://afonso-front-end.github.io/music-player/)
+## [Projeto Bancario](https://afonso-front-end.github.io/projeto_bancario/)
 
 Um repositório dedicado a um Sistema de banco.
 
